@@ -9,15 +9,17 @@ namespace FibonacciSequence
     {
         static void Main(string[] args)
         {
-            Console.Write("Your desired value of n: ");
+            Console.Write("How many numbers would you like to know from the Fibonacci Sequence?");
+            Console.WriteLine();
             int n = Convert.ToInt32(Console.ReadLine());
             int first = 0;
             int prev = 0;
+            Console.WriteLine();
 
-            for (int i = 0; i <= n; i++)
+            for (int i = 0; i <= n-1; i++)
             {
                 Console.WriteLine(first);
-                
+
                 if (first == 0)
                 {
                     first = 1;
@@ -31,7 +33,7 @@ namespace FibonacciSequence
                     prev = second;
 
                 }
-                
+
             }
             Console.ReadLine();
         }
