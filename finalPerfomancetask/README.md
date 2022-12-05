@@ -47,3 +47,8 @@ Features 1 and 2 are necessary to achieve a Level 3 Project
 3. SerialRead and Write
 - Use the SerialRead and Write to save information
   - Store information regarding Seating vacancy
+  - Store information regarding train History
+
+4. GodotUI
+- Use the GodotUI to create a user interface
+
