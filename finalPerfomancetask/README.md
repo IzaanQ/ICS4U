@@ -4,7 +4,7 @@ Brainstorming Ideas:
 
 Valid Concepts to Use:
 
-  MARKBOOK APPLICAITON
+  MARKBOOK APPLICATION
 1. Classes for Student Build
 2. Methods in the menu
 3. List to store items
