@@ -1,7 +1,8 @@
 Brainstorming Ideas:
 1. Stronger Markbook Application
-2. TTC Passenger Checker
-3. TTC Passenger Booking
+2. TTC Passenger Checker Software
+3. TTC Passenger Booking Software
+4. Cineplex Movie Booking Software
 
 Valid Concepts to Use:
 
