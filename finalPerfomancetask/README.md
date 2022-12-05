@@ -24,3 +24,5 @@ Valid Concepts to Use:
 2. 2D Arrays to store Seat information
 3. Classes to store Train information
 4. Write Trip History Logs to a document
+
+  CINEPLEX MOVIE BOOKING
