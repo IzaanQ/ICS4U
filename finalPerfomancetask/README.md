@@ -29,3 +29,6 @@ Valid Concepts to Use:
 1. 2D Arrays to save theatre information
 
 PROJECT TOPIC OF CHOICE: TTC PASSENGER BOOKING
+
+Concepts to Apply:
+
