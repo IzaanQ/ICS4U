@@ -28,8 +28,8 @@ Valid Concepts to Use:
   CINEPLEX MOVIE BOOKING
 1. 2D Arrays to save theatre information
 
-PROJECT TOPIC OF CHOICE: TTC PASSENGER BOOKING
 
+PROJECT TOPIC OF CHOICE: TTC PASSENGER BOOKING
 Concepts to Apply:
 1. Classes:
 - Use Classes to create an identity of a train
@@ -38,5 +38,12 @@ Concepts to Apply:
   - Number of Miles travalled
 
 2. 2D Arrays:
-- Use 2D Arrays to create seating map
-- Use 2D Arrays to 
+- Organise 
+  - Use 2D Arrays to create seating map
+  - Use 2D Arrays to book seating
+
+Features 1 and 2 are necessary to achieve a Level 3 Project
+
+3. SerialRead and Write
+- Use the SerialRead and Write to save information
+  - Store information regarding Seating vacancy
