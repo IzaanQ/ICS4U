@@ -32,4 +32,11 @@ PROJECT TOPIC OF CHOICE: TTC PASSENGER BOOKING
 
 Concepts to Apply:
 1. Classes:
-  Use Classes to 
+- Use Classes to create an identity of a train
+  - Train Size
+  - Conductor name
+  - Number of Miles travalled
+
+2. 2D Arrays:
+- Use 2D Arrays to create seating map
+- Use 2D Arrays to 
