@@ -18,3 +18,8 @@ Valid Concepts to Use:
 3. Write History Logs to a document
 4. Use methods to have reusable code
 
+  TTC PASSENGER BOOKING
+1. Godot for UI
+2. 2D Arrays to store Seat information
+3. Classes to store Train information
+4. Write Trip History Logs to a document
