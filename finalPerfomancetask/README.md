@@ -60,3 +60,4 @@ The Scope of the Software:
   - Inheritance
 - 2D Arrays
 - SerialRead
+- SerialWrite
