@@ -55,5 +55,6 @@ Features 1 and 2 are necessary to achieve a Level 3 Project
 The Scope of the Software:
  to provide a better alternate to the current TTC ticketing system
  
- Will use
+ Will Use
 - Classes
+  - Inheritance
