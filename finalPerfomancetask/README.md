@@ -61,4 +61,4 @@ The Scope of the Software:
 - 2D Arrays
 - SerialRead
 - SerialWrite
-- Godot game engine UI
+- Godot game engine UI development
