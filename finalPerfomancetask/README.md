@@ -61,3 +61,4 @@ The Scope of the Software:
 - 2D Arrays
 - SerialRead
 - SerialWrite
+- Godot UI
