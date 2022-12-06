@@ -58,3 +58,5 @@ The Scope of the Software:
  Will Use
 - Classes
   - Inheritance
+- 2D Arrays
+- SerialRead
