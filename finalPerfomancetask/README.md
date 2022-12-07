@@ -63,3 +63,6 @@ The Scope of the Software:
 - SerialWrite
 - Godot game engine UI development
 Make a proper UI
+
+JOURNALS
+
