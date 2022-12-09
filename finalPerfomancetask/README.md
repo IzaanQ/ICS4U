@@ -65,7 +65,10 @@ The Scope of the Software:
 Make a proper UI
 
 JOURNALS
-Day 1 (December 8th):
-Day 2 (December 9th):
+Day 1 (December 7th):
+
+Day 2 (December 8th):
+
+Day 3 (December 10th):
 
 
