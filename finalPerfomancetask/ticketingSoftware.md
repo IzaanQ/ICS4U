@@ -1,2 +1,5 @@
-The project which I have selected to complete for my ICS4U Performance Task is a TTC Ticketing Kiosk Software:
-Tporject APlan:
+Project Plan:
+
+End Result: TTC Kiosk Ticketing software that does the following when a user approaches it
+
+1. The Kiosk will 
