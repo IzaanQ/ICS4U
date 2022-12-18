@@ -9,8 +9,9 @@ namespace ConsoleApplication1
     {
 
         static void bookATicket() {
-            Console.WriteLine();
+            double distance = 0;
             Console.WriteLine("Booking a one-time ticket");
+            Console.WriteLine("Current Location: TTC HUB");
             Console.WriteLine();
             Console.WriteLine("Please select which TTC station you would like to go to");
             Console.WriteLine();
@@ -21,6 +22,120 @@ namespace ConsoleApplication1
             Console.WriteLine();
             int selection = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
+
+            if (selection == 1){
+
+                Console.Clear();
+                Console.WriteLine("Selected Destination: TTC Kipling");
+                distance = distance + 32;
+
+                ticket ticketKipling = new ticket();
+                ticketKipling.destination = "TTC Kipling";
+                ticketKipling.type = "One-way Ticket";
+                ticketKipling.travelTime = Math.Round((distance / 88) * 60, 2);
+                ticketKipling.price = (distance * 1.50);
+
+                Console.WriteLine();
+                Console.WriteLine("Destination: " + ticketKipling.destination);
+                Console.WriteLine("Ticket type: " + ticketKipling.type);
+                Console.WriteLine("Travel time: " + ticketKipling.travelTime + " minutes");
+                Console.WriteLine("Fare: $" + ticketKipling.price);
+                Console.WriteLine();
+                Console.WriteLine("Press 'enter' to proceed to seat selection and checkout");
+
+            }
+
+            if (selection == 2) {
+
+                Console.Clear();
+                Console.WriteLine("Selected Destination: TTC Islington");
+                distance = distance + 45;
+
+                ticket ticketIslington = new ticket();
+                ticketIslington.destination = "TTC Islington";
+                ticketIslington.type = "One-way Ticket";
+                ticketIslington.travelTime = Math.Round((distance / 88) * 60, 2);
+                ticketIslington.price = (distance * 1.50);
+
+                Console.WriteLine();
+                Console.WriteLine("Destination: " + ticketIslington.destination);
+                Console.WriteLine("Ticket type: " + ticketIslington.type);
+                Console.WriteLine("Travel time: " + ticketIslington.travelTime + " minutes");
+                Console.WriteLine("Fare: $" + ticketIslington.price);
+                Console.WriteLine();
+                Console.WriteLine("Press 'enter' to proceed to seat selection and checkout");
+
+            }
+
+            if (selection == 3) {
+
+                Console.Clear();
+                Console.WriteLine("Selected Destination: TTC Old Mill");
+
+                distance = distance + 56;
+
+                ticket ticketOldMill = new ticket();
+                ticketOldMill.destination = "TTC Old Mill";
+                ticketOldMill.type = "One-way Ticket";
+                ticketOldMill.travelTime = Math.Round((distance / 88) * 60, 2);
+                ticketOldMill.price = (distance * 1.50);
+
+                Console.WriteLine();
+                Console.WriteLine("Destination: " + ticketOldMill.destination);
+                Console.WriteLine("Ticket type: " + ticketOldMill.type);
+                Console.WriteLine("Travel time: " + ticketOldMill.travelTime + " minutes");
+                Console.WriteLine("Fare: $" + ticketOldMill.price);
+                Console.WriteLine();
+                Console.WriteLine("Press 'enter' to proceed to seat selection and checkout");
+
+            }
+
+            if (selection == 4) {
+
+                Console.Clear();
+                Console.WriteLine("Selected Destination: TTC Jane");
+
+                distance = distance + 71;
+
+                ticket ticketJane = new ticket();
+                ticketJane.destination = "TTC Jane";
+                ticketJane.type = "One-way Ticket";
+                ticketJane.travelTime = Math.Round((distance / 88) * 60, 2);
+                ticketJane.price = (distance * 1.50);
+
+                Console.WriteLine();
+                Console.WriteLine("Destination: " + ticketJane.destination);
+                Console.WriteLine("Ticket type: " + ticketJane.type);
+                Console.WriteLine("Travel time: " + ticketJane.travelTime + " minutes");
+                Console.WriteLine("Fare: $" + ticketJane.price);
+                Console.WriteLine();
+                Console.WriteLine("Press 'enter' to proceed to seat selection and checkout");
+
+            
+            }
+
+            if (selection == 5) {
+
+                Console.Clear();
+                Console.WriteLine("Selected Destination: TTC Runnymede");
+
+                distance = distance + 95;
+
+                ticket ticketRunnymede = new ticket();
+                ticketRunnymede.destination = "TTC Runnymede";
+                ticketRunnymede.type = "One-way Ticket";
+                ticketRunnymede.travelTime = Math.Round((distance / 88) * 60, 2);
+                ticketRunnymede.price = (distance * 1.50);
+
+                Console.WriteLine();
+                Console.WriteLine("Destination: " + ticketRunnymede.destination);
+                Console.WriteLine("Ticket type: " + ticketRunnymede.type);
+                Console.WriteLine("Travel time: " + ticketRunnymede.travelTime + " minutes");
+                Console.WriteLine("Fare: $" + ticketRunnymede.price);
+                Console.WriteLine();
+                Console.WriteLine("Press 'enter' to proceed to seat selection and checkout");
+ 
+            }
 
 
             //Console.WriteLine(selection);
@@ -44,8 +159,8 @@ namespace ConsoleApplication1
         {
             for (int i = 0; true; i++)
             {
-
                 Console.WriteLine("Welcome to the TTC Ticketing Kiosk!");
+                Console.WriteLine("Current Location: TTC HUB");
                 Console.WriteLine();
                 Console.WriteLine("Please choose the action you would like to complete today, then press enter.");
                 Console.WriteLine();
@@ -59,6 +174,7 @@ namespace ConsoleApplication1
 
                 if (choice == 1)
                 {
+                    Console.Clear();
                     bookATicket();
                 }
 
